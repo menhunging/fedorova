@@ -1,0 +1,84 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  padding: 35px 0;
+  color: $colorWhite;
+  transition: all 0.3s;
+
+  @include before {
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: $colorWhite;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 7px 0;
+}
+
+.lang {
+  .lang-text {
+    transition: all 0.3s;
+  }
+}
+
+.inner-page .header,
+.header--fixed {
+  color: $colorSimple;
+  background-color: $colorWhite;
+  padding: 10px 0;
+
+  &::before {
+    background-color: $colorSimple;
+  }
+
+  .burger {
+    .burger-line {
+      background-color: $colorSimple;
+    }
+  }
+
+  .btn-favorite {
+    svg {
+      path {
+        stroke: $colorSimple;
+      }
+    }
+  }
+
+  .logo {
+    &-fixed {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    &-static {
+      opacity: 0;
+    }
+  }
+}
+
+.inner-page {
+  .header {
+    padding: 20px 0;
+
+    &--fixed {
+      padding: 10px 0;
+    }
+  }
+}

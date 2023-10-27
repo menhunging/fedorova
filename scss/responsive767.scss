@@ -1,0 +1,436 @@
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+
+  body {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .logo .picture {
+    width: 50px;
+    height: 50px;
+  }
+
+  .btn-favorite {
+    width: 16px;
+    height: 16px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .burger {
+    width: 16px;
+    height: 16px;
+  }
+
+  .caption--two {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .caption--three {
+    font-size: 24px;
+  }
+
+  .caption {
+    & + .caption {
+      margin-top: 33px;
+    }
+  }
+
+  .grettings {
+    padding-bottom: 60px;
+  }
+
+  .footer {
+    padding: 13px 0;
+
+    .logo {
+      .picture {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .text-simple {
+    font-size: 14px;
+    line-height: 20px;
+
+    &__content {
+      max-width: 930px;
+    }
+  }
+
+  .title-section {
+    .caption {
+      padding: 16px;
+      background-color: transparent;
+    }
+
+    &::before {
+      top: auto;
+      bottom: 0;
+      transform: translateY(0);
+    }
+  }
+
+  .title-section {
+    margin-bottom: 30px;
+  }
+
+  .projects-slider .picture {
+    height: auto;
+    padding-top: calc(320 / 180 * 100%);
+    min-height: 320px;
+  }
+
+  .projects-slider .projects-slider__content {
+    padding: 15px;
+  }
+
+  .projects-slider__desc,
+  .projects-slider .projects-slider__name {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .projects-section__controls {
+    margin-top: 25px;
+  }
+
+  .projects-slider .projects-slider__desc {
+    left: 15px;
+    bottom: 15px;
+  }
+
+  .contacts-col {
+    font-size: 14px;
+  }
+
+  .contacts-col__title {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+
+  .breadcrumbs {
+    padding: 14px 0;
+    ul {
+      display: none;
+    }
+
+    .mobile-back {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+  }
+
+  .inner-page .main {
+    padding-top: 90px;
+  }
+
+  .tabs-links {
+    gap: 0;
+    flex-wrap: wrap;
+
+    li {
+      width: 100%;
+      flex: auto;
+
+      &:not(li:first-child) {
+        &.active {
+          .tabs-link {
+            border-top-color: transparent;
+          }
+        }
+      }
+    }
+  }
+
+  .tabs-link {
+    font-size: 22px;
+    padding: 8px 10px;
+    line-height: 46px;
+    text-align: left;
+  }
+
+  .caption--two--inner {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .product-item__link {
+    padding-left: 25px;
+  }
+
+  .product-item__link::before {
+    width: 20px;
+  }
+
+  .product-item .picture {
+    height: auto;
+    padding-top: calc(141 / 172 * 100%);
+    margin-bottom: 5px;
+  }
+
+  .btn {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 8px 5px;
+  }
+
+  .tabs-body .btn {
+    max-width: 132px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 60px;
+    height: 5px;
+
+    svg {
+      width: 60px;
+      height: 5px;
+    }
+  }
+
+  .catalog-inner__text {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    .row {
+      flex-wrap: wrap;
+
+      p {
+        width: 100%;
+      }
+    }
+  }
+
+  .grid-product {
+    padding: 16px 0;
+  }
+
+  .grid-product__list {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .projects-item {
+    width: calc(50% - 5px);
+
+    .picture {
+      padding-top: calc(255 / 358 * 100%);
+    }
+  }
+
+  .btn-more {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .projects-list {
+    gap: 16px 0;
+  }
+
+  .projects-inner__slider {
+    .picture {
+      padding-top: calc(209 / 327 * 100%);
+    }
+  }
+
+  .projects-inner {
+    .swiper-button {
+      width: 5px;
+      height: 10px;
+
+      svg {
+        width: 5px;
+        height: 10px;
+      }
+    }
+  }
+
+  .projects-inner__wrapper {
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .product-item__desc {
+    padding-left: 25px;
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .projects--favorites {
+    .product-item__link {
+      font-size: 14px;
+      line-height: 20px;
+
+      &::before {
+        top: 8px;
+      }
+    }
+  }
+
+  .map-block {
+    max-width: 100%;
+  }
+
+  .map {
+    height: 335px;
+  }
+
+  .contact-block {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-block {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contacts-social .contacts-section__right {
+    .picture {
+      height: auto;
+      width: 100%;
+    }
+
+    ul li {
+      width: calc(50% - 16px);
+      flex: initial;
+    }
+  }
+
+  .contacts-page__head {
+    margin-bottom: 30px;
+  }
+
+  .other-products {
+    .btn {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+
+  .other-products {
+    .btn {
+      margin-top: 12px;
+      min-width: 120px;
+    }
+  }
+
+  .other-products .slider-catalog {
+    margin-top: 12px;
+  }
+
+  .card-descriptions__left,
+  .card-media {
+    max-width: 100%;
+  }
+
+  .card-media {
+    flex-direction: column-reverse;
+  }
+
+  .slider-card-big {
+    .swiper-button {
+      width: 9px;
+      height: 9px;
+
+      svg {
+        width: 9px;
+        height: 9px;
+      }
+    }
+
+    .swiper-pagination {
+      bottom: 10px !important;
+    }
+  }
+
+  .card-info {
+    max-width: 100%;
+    margin-top: 24px;
+  }
+
+  .btn-add-favorite {
+    top: 5px;
+    position: relative;
+  }
+
+  .card-colors {
+    display: block;
+
+    .caption--three {
+      font-size: 14px;
+    }
+  }
+
+  .color-list {
+    gap: 10px 24px;
+  }
+
+  .card-colors__col {
+    & + .card-colors__col {
+      margin-top: 16px;
+    }
+  }
+
+  .card-size {
+    margin-top: 16px;
+
+    .caption--three {
+      font-size: 14px;
+    }
+  }
+
+  .card-descriptions__right {
+    max-width: 100%;
+    margin-top: 24px;
+  }
+
+  .card-section {
+    padding-top: 0;
+  }
+
+  .designer-info {
+    width: 100px;
+    padding: 0 8px 4px;
+  }
+
+  .designer-info__picture {
+    height: 84px;
+  }
+
+  .designer-info__close {
+    right: -5px;
+  }
+
+  .designer-info__text {
+    font-size: 7px;
+    line-height: 8px;
+    margin-top: 5px;
+  }
+
+  .designer-info__arrow {
+    width: 5px;
+    height: 10px;
+
+    svg {
+      width: 5px;
+      height: 10px;
+    }
+  }
+}

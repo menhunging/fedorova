@@ -1,0 +1,112 @@
+@media (max-width: 1699px) {
+  .container {
+    max-width: 1500px;
+  }
+
+  body {
+    font-size: 17px;
+  }
+
+  .logo {
+    .picture {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .logo .picture {
+    width: 80px;
+    height: 80px;
+  }
+
+  .caption--two {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .caption {
+    & + .caption {
+      margin-top: 15px;
+    }
+  }
+
+  .grettings {
+    padding-bottom: 50px;
+  }
+
+  .grid-item .picture {
+    height: 365px;
+  }
+
+  .grid-item.grid-item--small .picture {
+    height: 135px;
+  }
+
+  .grid-item__name {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  section {
+    padding: 70px 0;
+  }
+
+  .text-simple {
+    font-size: 16px;
+
+    p + p {
+      margin-top: 20px;
+    }
+  }
+
+  .projects-slider .picture {
+    height: 700px;
+  }
+
+  .contacts-section__right {
+    padding: 70px 30px;
+  }
+
+  .contacts-section__left {
+    padding: 70px 30px;
+  }
+
+  .contacts-col {
+    font-size: 16px;
+  }
+
+  .contacts-section__right .link {
+    font-size: 16px;
+  }
+
+  .contacts-col__title {
+    margin-bottom: 20px;
+  }
+
+  .inner-page .main {
+    padding-top: 120px;
+  }
+
+  .caption--two--inner {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .product-item .picture {
+    height: 272px;
+  }
+
+  .contacts-social__left,
+  .map-block {
+    max-width: 810px;
+  }
+
+  .contacts-social__inner .contacts-section__right .picture {
+    height: 167px;
+  }
+
+  .card-descriptions__right,
+  .card-info {
+    max-width: 615px;
+  }
+}

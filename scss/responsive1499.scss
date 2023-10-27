@@ -1,0 +1,306 @@
+@media (max-width: 1499px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .grid-catalog {
+    gap: 35px;
+  }
+
+  .grid-item .picture {
+    height: 300px;
+  }
+
+  .grid-item.grid-item--small .picture {
+    height: 111px;
+  }
+
+  .grid-item__name {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .grid-item.grid-col-1 .picture {
+    height: calc(100% - 43px);
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .magazine-block__text {
+    padding: 30px 30px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .caption--two {
+    font-size: 44px;
+    line-height: 54px;
+  }
+
+  .projects-slider .picture {
+    height: 600px;
+  }
+
+  .title-section {
+    margin-bottom: 55px;
+  }
+
+  .projects-section__controls {
+    margin-top: 35px;
+  }
+
+  .projects-slider .projects-slider__content {
+    padding: 25px;
+  }
+
+  .projects-slider .projects-slider__desc {
+    left: 25px;
+    bottom: 25px;
+  }
+
+  .contacts-section__left {
+    gap: 30px;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 50px 30px;
+  }
+
+  .contacts-col {
+    width: 100%;
+
+    &:first-child {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .contacts-section__left {
+    padding: 50px 30px;
+  }
+
+  .contacts-section__right {
+    padding: 50px 30px;
+  }
+
+  .contacts-row {
+    margin-top: 14px;
+  }
+
+  .menu-sub__link {
+    font-size: 20px;
+    padding: 4px;
+  }
+
+  .menu-row {
+    gap: 30px;
+    padding: 60px 0;
+  }
+
+  .tabs-link {
+    font-size: 24px;
+    padding: 14px 5px;
+    line-height: 38px;
+  }
+
+  .product-item .picture {
+    height: 240px;
+  }
+
+  .catalog .slider-catalog {
+    margin-top: 20px;
+  }
+
+  .tabs-body {
+    padding: 50px 0;
+  }
+
+  .product-item__link {
+    font-size: 14px;
+    padding-left: 45px;
+  }
+
+  .product-item__link::before {
+    width: 40px;
+    top: 8px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 10px 5px;
+  }
+
+  .tabs-body .btn {
+    max-width: 230px;
+  }
+
+  .swiper-controls {
+    gap: 10px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 120px;
+    height: 6px;
+
+    svg {
+      width: 120px;
+      height: 6px;
+    }
+  }
+
+  .grid-product__list {
+    gap: 30px;
+  }
+
+  .catalog-inner__text {
+    padding-top: 36px;
+
+    .row {
+      gap: 30px;
+
+      p {
+        width: calc(100% / 3 - 30px);
+      }
+    }
+  }
+
+  .catalog-inner__text {
+    font-size: 16px;
+  }
+
+  .projects-list {
+    gap: 20px 0;
+  }
+
+  .projects-item {
+    width: calc(50% - 10px);
+  }
+
+  .btn-more {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .other-products {
+    .btn {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }
+
+  .catalog-controls {
+    margin-top: 20px;
+  }
+
+  .projects-inner__slider {
+    .picture {
+      padding-top: calc(500 / 784 * 100%);
+    }
+  }
+
+  .product-item__desc {
+    padding-left: 45px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .projects--favorites {
+    .product-item__link {
+      font-size: 24px;
+      line-height: 28px;
+
+      &::before {
+        top: 15px;
+      }
+    }
+  }
+
+  .contacts-social__left,
+  .map-block {
+    max-width: 50%;
+  }
+
+  .map {
+    height: 420px;
+  }
+
+  .contacts-social__right,
+  .contact-block {
+    width: 100%;
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contacts-social {
+    margin-top: 30px;
+  }
+
+  .contacts-social__inner .contacts-section__right .picture {
+    height: 130px;
+  }
+
+  .contacts-page .caption {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+
+  .other-products {
+    .btn {
+      min-width: 230px;
+    }
+  }
+
+  .card-descriptions__left,
+  .card-media {
+    max-width: 630px;
+  }
+
+  .card-descriptions__right,
+  .card-info {
+    max-width: 595px;
+  }
+
+  .card-colors__title {
+    margin-bottom: 0;
+  }
+
+  .card-colors__col .caption {
+    margin-bottom: 16px;
+  }
+
+  .card-info__head {
+    margin-bottom: 30px;
+  }
+
+  .card-size__item label {
+    width: 116px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .card-colors__row + .card-colors__row {
+    margin-top: 7px;
+  }
+
+  .card-info__head {
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+  }
+
+  .card-descriptions {
+    margin-top: 40px;
+  }
+
+  .card-descriptions {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .card-descriptions__text {
+    margin-top: 24px;
+  }
+}
