@@ -375,4 +375,14 @@
   .card-descriptions__text {
     margin-top: 16px;
   }
+
+  .product-item .picture .btn-favorite {
+    right: 10px;
+    top: 10px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
 }

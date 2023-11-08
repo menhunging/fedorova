@@ -52,12 +52,12 @@
             <section class="test-modals">
                 <h1 class="caption">Тестовые ссылки для открытия модалок:</h1>
 
-                <a href="#" data-modal="modal-back-call">Обратный звонок</a>
+                <a href="#" data-modal="modal-card">Карточка</a>
             </section>
         </main>
     </div>
 
-    <!-- <div class="micromodal-slide modal" id="modal-back-call" aria-hidden="true">
+    <div class="micromodal-slide modal" id="modal-card" aria-hidden="true">
         <div class="modal__overlay" tabindex="-1" data-micromodal-close>
             <div class="modal__container" role="dialog" aria-modal="true">
                 <div class="modal__inner">
@@ -72,27 +72,26 @@
                     </button>
                     <div class="modal__content" autocomplete="off">
                         <div class="modal-custom">
-                            <h2 class="caption modals-caption">Заказать обратный звонок</h2>
-                            <span class="modals-text">Наши менеджеры свяжутся с Вами</span>
+                            <div class="card-modal">
+                                <picture class='picture'>
+                                    <source type="image/webp" srcset="image.webp" />
+                                    <img src="image.jpg" alt="" />
+                                </picture>
 
-                            <form class="input-form">
-                                <div class="input-item">
-                                    <input type="text" placeholder="Ваше имя*">
+                                <div class="card-modal__content">
+                                    <span class="card-modal__name">Table top material</span>
+                                    <span class="card-modal__material">Wood</span>
+                                    <span class="card-modal__color">light beige</span>
+
+                                    <button class="card-modal__btn">Choose</button>
                                 </div>
-                                <div class="input-item">
-                                    <input type="text" placeholder="Ваш телефон*" class="phone-input">
-                                </div>
-                                <button class="btn btn--gray">Связаться со мной</button>
-                                <span class="text">Нажимая на кнопку, вы даете <a href="#">согласие на обработку
-                                        персональных
-                                        данных</a></span>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
 
     <script src="../../libs/jquery/jquery-3.6.4.min.js"></script>

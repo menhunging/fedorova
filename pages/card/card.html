@@ -199,13 +199,15 @@
                                         <div class="color-list">
                                             <div class="color-item">
                                                 <input type="radio" name="colors1" id="w1">
-                                                <label for="w1">
+                                                <label for="w1" data-modal-check="modal-card" data-material="wood"
+                                                    data-color="color1">
                                                     <img src="../../img/color1.jpg" alt="">
                                                 </label>
                                             </div>
                                             <div class="color-item">
                                                 <input type="radio" name="colors1" id="w2">
-                                                <label for="w2">
+                                                <label for="w2" data-modal-check="modal-card" data-material="wood1"
+                                                    data-color="color2">
                                                     <img src="../../img/color2.jpg" alt="">
                                                 </label>
                                             </div>
@@ -1351,6 +1353,40 @@
             </svg>
         </button>
 
+    </div>
+
+    <div class="micromodal-slide modal" id="modal-card" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true">
+                <div class="modal__inner">
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close>
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.22499 18.825L5.17499 17.775L10.95 12L5.17499 6.225L6.22499 5.175L12 10.95L17.775 5.175L18.825 6.225L13.05 12L18.825 17.775L17.775 18.825L12 13.05L6.22499 18.825Z"
+                                fill="#002246" />
+                        </svg>
+
+                    </button>
+                    <div class="modal__content" autocomplete="off">
+                        <div class="modal-custom">
+                            <div class="card-modal">
+                                <picture class='picture'>
+                                    <img src="../../img/color1.jpg" alt="" />
+                                </picture>
+
+                                <div class="card-modal__content">
+                                    <span class="card-modal__name">Table top material</span>
+                                    <span class="card-modal__material">Wood</span>
+                                    <span class="card-modal__color">light beige</span>
+                                    <label for="" class="btn card-modal__btn">Choose</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="../../libs/jquery/jquery-3.6.4.min.js"></script>

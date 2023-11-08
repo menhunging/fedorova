@@ -40,4 +40,41 @@ $(document).ready(function () {
       },
     });
   }
+
+  if ($("[data-modal-check]").length > 0) {
+    MicroModal.init({
+      openTrigger: "data-modal-check",
+      disableScroll: true,
+      awaitOpenAnimation: true,
+      awaitCloseAnimation: true,
+
+      onShow: () => {
+        $("body").addClass("modal-open");
+      },
+
+      onClose: () => {
+        $("body").removeClass("modal-open");
+      },
+    });
+
+    $(".card-modal__btn").on("click", function () {
+      closeModal("modal-card");
+    });
+
+    $("[data-modal-check]").map(function () {
+      $(this).click((e) => {
+        e.preventDefault();
+
+        let check = $(this).attr("for");
+        let material = $(this).attr("data-material");
+        let color = $(this).attr("data-color");
+        let url = $(this).find("img").attr("src");
+
+        $(".card-modal__btn").attr("for", check);
+        $(".card-modal__material").text(material);
+        $(".card-modal__color").text(color);
+        $(".card-modal .picture img").attr("src", url);
+      });
+    });
+  }
 });
