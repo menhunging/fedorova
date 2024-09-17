@@ -38,6 +38,18 @@
   .grid-catalog + .grid-catalog {
     margin-top: 0;
   }
+
+  .main-catalog--desktop {
+    display: none;
+  }
+
+  .main-catalog--mobile {
+    display: block;
+  }
+
+  .grid-item__name {
+    white-space: initial;
+  }
 }
 
 @media (max-width: 479px) {
@@ -52,14 +64,19 @@
   .map {
     height: 250px;
   }
+
+  .card-form-3d .caption {
+    font-size: 20px;
+    line-height: 26px;
+  }
 }
 
 @media (max-width: 389px) {
-  .contacts-section__right ul li {
+  .contacts-section__right ul:not(.social) li {
     width: 100%;
   }
 
-  .contacts-section__right ul {
+  .contacts-section__right ul:not(.social) {
     width: 100%;
   }
 
@@ -74,6 +91,25 @@
   .contacts-social .contacts-section__right {
     ul li {
       width: 100%;
+    }
+  }
+
+  .contacts-section__right {
+    .mobile {
+      .picture {
+        display: none;
+
+        img {
+        }
+      }
+    }
+  }
+
+  .product-item__link{
+    font-size: 14px;
+
+    &::before{
+      top:8px;
     }
   }
 }

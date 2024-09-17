@@ -124,8 +124,8 @@
   }
 
   .contacts-section__right .picture {
-    width: 140px;
-    height: 90px;
+    width: 180px;
+    height: 100px;
   }
 
   .inner-page .main {
@@ -256,7 +256,8 @@
   }
 
   .contact-block {
-    max-width: 331px;
+    max-width: 310px;
+    padding-left: 10px;
   }
 
   .contacts-social__right {
@@ -268,10 +269,6 @@
     margin-top: 30px;
     padding-top: 0;
     border-top: 0;
-  }
-
-  .contacts-social__inner .contacts-section__right .picture {
-    height: 200px;
   }
 
   .contacts-social__inner {
@@ -304,6 +301,7 @@
 
   .card-info {
     max-width: 486px;
+    padding-left: 10px;
   }
 
   .color-list {
@@ -384,5 +382,34 @@
       width: 16px;
       height: 16px;
     }
+  }
+
+  .contacts-section__right .link svg {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+  }
+
+  .projects-inner__slider .swiper-slide {
+    height: 500px;
+  }
+
+  .card-list-picture {
+    gap: 15px;
+  }
+
+  .card-descriptions__left .picture {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    height: 340px;
+  }
+
+  .design-invis__item .circle {
+    pointer-events: none;
+  }
+
+  .contacts-section__right .picture img {
+    object-fit: cover;
+    object-position: top;
   }
 }

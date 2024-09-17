@@ -511,6 +511,10 @@
                                 </ul>
                             </div>
 
+                            <div class="card-3dmodel">
+                                <a href="#" data-modal="popup3d">Скачать 3D-модель</a>
+                            </div>
+
                         </div>
                         <div class="card-descriptions">
                             <div class="card-descriptions__left">
@@ -1382,6 +1386,48 @@
                                     <label for="" class="btn card-modal__btn">Choose</label>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="micromodal-slide modal" id="popup3d" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+            <div class="modal__container" role="dialog" aria-modal="true">
+                <div class="modal__inner">
+                    <button class="modal__close" aria-label="Close modal" data-micromodal-close>
+
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.22499 18.825L5.17499 17.775L10.95 12L5.17499 6.225L6.22499 5.175L12 10.95L17.775 5.175L18.825 6.225L13.05 12L18.825 17.775L17.775 18.825L12 13.05L6.22499 18.825Z"
+                                fill="#002246" />
+                        </svg>
+
+                    </button>
+                    <div class="modal__content" autocomplete="off">
+                        <div class="modal-custom">
+                            <form class="card-form-3d">
+                                <h2 class="caption">Заполните форму,<br /> чтобы скачать 3D-модель</h2>
+                                <div class="input-item">
+                                    <input type="text" placeholder="Имя*">
+                                </div>
+                                <div class="input-item">
+                                    <input type="text" placeholder="Телефон*" class="phone-input">
+                                </div>
+                                <div class="input-item">
+                                    <input type="email" placeholder="E-mail*">
+                                </div>
+                                <div class="check-block">
+                                    <input type="checkbox" id="pers" checked>
+                                    <label for="pers">Нажимая кнопку «Скачать», я даю свое согласие на обработку моих
+                                        персональных данных, в соответствии с Федеральным законом от 27.07.2006 года
+                                        №152-ФЗ «О персональных данных», на условиях и для целей, определенных с
+                                        Согласии на обработку персональных данных</label>
+                                </div>
+                                <button class="btn">Отправить</button>
+                            </form>
                         </div>
                     </div>
                 </div>

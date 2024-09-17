@@ -60,7 +60,7 @@
   }
 
   .projects-slider .picture {
-    height: 700px;
+    height: 500px;
   }
 
   .contacts-section__right {
@@ -101,12 +101,12 @@
     max-width: 810px;
   }
 
-  .contacts-social__inner .contacts-section__right .picture {
-    height: 167px;
-  }
-
   .card-descriptions__right,
   .card-info {
     max-width: 615px;
+  }
+
+  .card-list-picture{
+    gap: 30px;
   }
 }

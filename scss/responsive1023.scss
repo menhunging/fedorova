@@ -64,7 +64,7 @@
     margin-bottom: 45px;
   }
 
-  .contacts-section__right ul {
+  .contacts-section__right ul:not(.social) {
     gap: 15px 0;
     justify-content: space-between;
 
@@ -111,6 +111,12 @@
   .contacts-section__right {
     .mobile {
       display: block;
+
+      .picture {
+        img {
+          display: none;
+        }
+      }
     }
   }
 
@@ -178,5 +184,32 @@
   .card-descriptions__text {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .projects-inner__slider .swiper-slide {
+    height: 418px;
+  }
+
+  .card-descriptions__left .picture {
+    height: 260px;
+  }
+
+  .design-invis__item .circle {
+    width: 6px;
+    height: 6px;
+    border-width: 0.5px;
+
+    &::before {
+      width: 3px;
+      height: 3px;
+    }
+  }
+
+  .mobile-design-list {
+    display: block;
+  }
+
+  .designer-info.opened {
+    display: none !important;
   }
 }
